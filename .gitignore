@@ -1,0 +1,36 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Ficheiros de ambiente e credenciais sensíveis
+.env
+.env.*
+!.env.example
+
+# Caches de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Dados locais gerados pelo script de bootstrap
+data/docs/
+data/*.db
+data/*.sqlite3
+
+# Ficheiros de saída da avaliação de LLMOps
+eval_results.json
+
+# Caches de modelos Hugging Face / Sentence-Transformers
+.cache/
+models/
+
+# Configurações de IDE e sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

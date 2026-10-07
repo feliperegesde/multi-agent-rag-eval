@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "multi-agent-rag-eval"
+version = "0.1.0"
+description = "Multi-Agent RAG with Hybrid Search, Self-Correction, and Continuous LLMOps Evaluation"
+authors = ["Felipe Reges"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

@@ -1,0 +1,10 @@
+[
+  {
+    "question": "Como injetar tarefas em background em um endpoint do FastAPI?",
+    "ground_truth": "Utiliza-se o BackgroundTasks como parâmetro da função da rota e invoca-se background_tasks.add_task() passando a função e os argumentos."
+  },
+  {
+    "question": "Qual versão do FastAPI removeu o suporte oficial ao Python 3.7?",
+    "ground_truth": "A versão 0.109.0, que passou a exigir Python 3.8 ou superior."
+  }
+]
